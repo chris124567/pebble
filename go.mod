@@ -1,4 +1,4 @@
-module github.com/cockroachdb/pebble
+module github.com/chris124567/pebble
 
 require (
 	github.com/HdrHistogram/hdrhistogram-go v1.1.2
