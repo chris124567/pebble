@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"github.com/cockroachdb/pebble/sstable"
-	"github.com/cockroachdb/pebble/sstable/block"
+	"github.com/chris124567/pebble/sstable"
+	"github.com/chris124567/pebble/sstable/block"
 )
 
 func TestFlushGovernor(t *testing.T) {

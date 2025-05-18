@@ -16,9 +16,9 @@ import (
 
 // Define the list of top-level packages to check.
 var packagesToCheck = map[string]bool{
-	"github.com/cockroachdb/pebble":            true,
-	"github.com/cockroachdb/pebble/sstable":    true,
-	"github.com/cockroachdb/pebble/cmd/pebble": true,
+	"github.com/chris124567/pebble":            true,
+	"github.com/chris124567/pebble/sstable":    true,
+	"github.com/chris124567/pebble/cmd/pebble": true,
 }
 
 // Forbidden packages (direct & transitive dependencies).

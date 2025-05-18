@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/sstable/block"
-	"github.com/cockroachdb/pebble/sstable/rowblk"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/sstable/block"
+	"github.com/chris124567/pebble/sstable/rowblk"
 )
 
 func BenchmarkCockroachDataRowBlockWriter(b *testing.B) {

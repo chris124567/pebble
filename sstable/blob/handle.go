@@ -8,8 +8,8 @@ import (
 	"encoding/binary"
 	"unsafe"
 
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/sstable/valblk"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/sstable/valblk"
 	"github.com/cockroachdb/redact"
 )
 

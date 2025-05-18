@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/invariants"
-	"github.com/cockroachdb/pebble/internal/manifest"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/invariants"
+	"github.com/chris124567/pebble/internal/manifest"
 )
 
 // ShouldSplit indicates whether a compaction should split between output files.

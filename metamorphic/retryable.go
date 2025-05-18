@@ -6,8 +6,8 @@ package metamorphic
 
 import (
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble"
-	"github.com/cockroachdb/pebble/vfs/errorfs"
+	"github.com/chris124567/pebble"
+	"github.com/chris124567/pebble/vfs/errorfs"
 )
 
 // A RetryPolicy determines what error values should trigger a retry of an

@@ -15,8 +15,8 @@ import (
 	"time"
 
 	"github.com/cockroachdb/crlib/testutils/leaktest"
-	"github.com/cockroachdb/pebble/sstable/rowblk"
-	"github.com/cockroachdb/pebble/vfs"
+	"github.com/chris124567/pebble/sstable/rowblk"
+	"github.com/chris124567/pebble/vfs"
 	"github.com/kr/pretty"
 	"github.com/stretchr/testify/require"
 )

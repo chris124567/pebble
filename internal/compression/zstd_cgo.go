@@ -12,7 +12,7 @@ import (
 
 	"github.com/chris124567/zstd"
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/base"
 )
 
 type zstdCompressor struct {

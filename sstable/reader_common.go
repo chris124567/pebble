@@ -7,7 +7,7 @@ package sstable
 import (
 	"math"
 
-	"github.com/cockroachdb/pebble/sstable/block"
+	"github.com/chris124567/pebble/sstable/block"
 )
 
 // FilterBlockSizeLimit is a size limit for bloom filter blocks - if a bloom

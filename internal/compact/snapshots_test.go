@@ -7,7 +7,7 @@ package compact
 import (
 	"testing"
 
-	"github.com/cockroachdb/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/base"
 )
 
 func TestSnapshotIndex(t *testing.T) {

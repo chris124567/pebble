@@ -1,6 +1,6 @@
 package block
 
-import "github.com/cockroachdb/pebble/internal/compression"
+import "github.com/chris124567/pebble/internal/compression"
 
 // Compressor is used to compress blocks. Typical usage:
 //

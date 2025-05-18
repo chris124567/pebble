@@ -9,9 +9,9 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/cockroachdb/pebble/internal/buildtags"
-	"github.com/cockroachdb/pebble/internal/invariants"
-	"github.com/cockroachdb/pebble/internal/manual"
+	"github.com/chris124567/pebble/internal/buildtags"
+	"github.com/chris124567/pebble/internal/invariants"
+	"github.com/chris124567/pebble/internal/manual"
 )
 
 // ValueMetadataSize denotes the number of bytes of metadata allocated for a

@@ -14,8 +14,8 @@ import (
 	"unsafe"
 
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/invariants"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/invariants"
 )
 
 type btreeCmp func(*TableMetadata, *TableMetadata) int

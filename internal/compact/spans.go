@@ -5,11 +5,11 @@
 package compact
 
 import (
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/invariants"
-	"github.com/cockroachdb/pebble/internal/keyspan"
-	"github.com/cockroachdb/pebble/internal/rangekey"
-	"github.com/cockroachdb/pebble/sstable"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/invariants"
+	"github.com/chris124567/pebble/internal/keyspan"
+	"github.com/chris124567/pebble/internal/rangekey"
+	"github.com/chris124567/pebble/sstable"
 )
 
 // RangeDelSpanCompactor coalesces RANGEDELs within snapshot stripes and elides

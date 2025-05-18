@@ -13,9 +13,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cockroachdb/pebble"
-	"github.com/cockroachdb/pebble/cockroachkvs"
-	"github.com/cockroachdb/pebble/internal/randvar"
+	"github.com/chris124567/pebble"
+	"github.com/chris124567/pebble/cockroachkvs"
+	"github.com/chris124567/pebble/internal/randvar"
 	"github.com/spf13/cobra"
 )
 

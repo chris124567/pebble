@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/manifest"
-	"github.com/cockroachdb/pebble/internal/testutils"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/manifest"
+	"github.com/chris124567/pebble/internal/testutils"
 )
 
 func TestTableSplitLimit(t *testing.T) {

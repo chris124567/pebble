@@ -15,8 +15,8 @@ import (
 
 	"github.com/cockroachdb/crlib/crtime"
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/crc"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/crc"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

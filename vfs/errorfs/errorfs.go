@@ -14,8 +14,8 @@ import (
 
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/errors/oserror"
-	"github.com/cockroachdb/pebble/internal/dsl"
-	"github.com/cockroachdb/pebble/vfs"
+	"github.com/chris124567/pebble/internal/dsl"
+	"github.com/chris124567/pebble/vfs"
 )
 
 // ErrInjected is an error artificially injected for testing fs error paths.

@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cockroachdb/pebble/internal/buildtags"
+	"github.com/chris124567/pebble/internal/buildtags"
 )
 
 func TestBytes(t *testing.T) {

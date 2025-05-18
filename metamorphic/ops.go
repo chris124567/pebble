@@ -17,16 +17,16 @@ import (
 	"strings"
 
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/keyspan"
-	"github.com/cockroachdb/pebble/internal/private"
-	"github.com/cockroachdb/pebble/internal/rangekey"
-	"github.com/cockroachdb/pebble/objstorage/objstorageprovider"
-	"github.com/cockroachdb/pebble/sstable"
-	"github.com/cockroachdb/pebble/sstable/block"
-	"github.com/cockroachdb/pebble/vfs"
-	"github.com/cockroachdb/pebble/vfs/errorfs"
+	"github.com/chris124567/pebble"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/keyspan"
+	"github.com/chris124567/pebble/internal/private"
+	"github.com/chris124567/pebble/internal/rangekey"
+	"github.com/chris124567/pebble/objstorage/objstorageprovider"
+	"github.com/chris124567/pebble/sstable"
+	"github.com/chris124567/pebble/sstable/block"
+	"github.com/chris124567/pebble/vfs"
+	"github.com/chris124567/pebble/vfs/errorfs"
 )
 
 // Ops holds a sequence of operations to be executed by the metamorphic tests.
@@ -153,7 +153,7 @@ func (o *checkpointOp) run(t *Test, h historyRecorder) {
 	// by setting the weight that generator.go uses to zero, or similar.
 	// But IIUC the ops are shared for ALL the metamorphic test runs, so
 	// not sure how to do that easily:
-	// https://github.com/cockroachdb/pebble/blob/master/metamorphic/meta.go#L177
+	// https://github.com/chris124567/pebble/blob/master/metamorphic/meta.go#L177
 	if t.testOpts.sharedStorageEnabled || t.testOpts.externalStorageEnabled {
 		h.Recordf("%s // %v", o.formattedString(t.testOpts.KeyFormat), nil)
 		return

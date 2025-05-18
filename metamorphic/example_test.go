@@ -9,7 +9,7 @@ import (
 	"io"
 	"math/rand/v2"
 
-	"github.com/cockroachdb/pebble/metamorphic"
+	"github.com/chris124567/pebble/metamorphic"
 )
 
 func ExampleExecute() {

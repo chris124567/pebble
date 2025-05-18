@@ -14,8 +14,8 @@ import (
 	"github.com/cockroachdb/crlib/crstrings"
 	"github.com/cockroachdb/crlib/testutils/leaktest"
 	"github.com/cockroachdb/datadriven"
-	"github.com/cockroachdb/pebble/objstorage"
-	"github.com/cockroachdb/pebble/sstable/block"
+	"github.com/chris124567/pebble/objstorage"
+	"github.com/chris124567/pebble/sstable/block"
 	"github.com/stretchr/testify/require"
 )
 

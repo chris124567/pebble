@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/invariants"
-	"github.com/cockroachdb/pebble/sstable/block"
+	"github.com/chris124567/pebble/internal/invariants"
+	"github.com/chris124567/pebble/sstable/block"
 )
 
 // Writer writes a sequence of value blocks, and the value blocks index, for a

@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cockroachdb/pebble/sstable"
-	"github.com/cockroachdb/pebble/vfs"
-	"github.com/cockroachdb/pebble/vfs/atomicfs"
+	"github.com/chris124567/pebble/sstable"
+	"github.com/chris124567/pebble/vfs"
+	"github.com/chris124567/pebble/vfs/atomicfs"
 	"github.com/stretchr/testify/require"
 )
 

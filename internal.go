@@ -4,7 +4,7 @@
 
 package pebble
 
-import "github.com/cockroachdb/pebble/internal/base"
+import "github.com/chris124567/pebble/internal/base"
 
 // SeqNum exports the base.SeqNum type.
 type SeqNum = base.SeqNum

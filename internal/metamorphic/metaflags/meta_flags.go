@@ -17,9 +17,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/cockroachdb/pebble/internal/buildtags"
-	"github.com/cockroachdb/pebble/internal/randvar"
-	"github.com/cockroachdb/pebble/metamorphic"
+	"github.com/chris124567/pebble/internal/buildtags"
+	"github.com/chris124567/pebble/internal/randvar"
+	"github.com/chris124567/pebble/metamorphic"
 )
 
 // CommonFlags contains flags that apply to both metamorphic.Run and

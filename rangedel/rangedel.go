@@ -6,9 +6,9 @@
 package rangedel
 
 import (
-	"github.com/cockroachdb/pebble/internal/keyspan"
-	"github.com/cockroachdb/pebble/internal/rangedel"
-	"github.com/cockroachdb/pebble/sstable"
+	"github.com/chris124567/pebble/internal/keyspan"
+	"github.com/chris124567/pebble/internal/rangedel"
+	"github.com/chris124567/pebble/sstable"
 )
 
 // Fragmenter exports the keyspan.Fragmenter type.

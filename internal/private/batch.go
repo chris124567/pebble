@@ -5,8 +5,8 @@
 package private
 
 import (
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/keyspan"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/keyspan"
 )
 
 // BatchSort is a hook for constructing iterators over the point and range

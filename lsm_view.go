@@ -10,10 +10,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/humanize"
-	"github.com/cockroachdb/pebble/internal/lsmview"
-	"github.com/cockroachdb/pebble/objstorage"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/humanize"
+	"github.com/chris124567/pebble/internal/lsmview"
+	"github.com/chris124567/pebble/objstorage"
 )
 
 // LSMViewURL returns an URL which shows a diagram of the LSM.

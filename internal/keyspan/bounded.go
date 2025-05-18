@@ -7,8 +7,8 @@ package keyspan
 import (
 	"context"
 
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/treeprinter"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/treeprinter"
 )
 
 // TODO(jackson): Consider removing this type and adding bounds enforcement

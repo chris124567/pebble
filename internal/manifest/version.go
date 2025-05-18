@@ -17,12 +17,12 @@ import (
 	"unsafe"
 
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/invariants"
-	"github.com/cockroachdb/pebble/internal/strparse"
-	"github.com/cockroachdb/pebble/sstable"
-	"github.com/cockroachdb/pebble/sstable/block"
-	"github.com/cockroachdb/pebble/sstable/virtual"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/invariants"
+	"github.com/chris124567/pebble/internal/strparse"
+	"github.com/chris124567/pebble/sstable"
+	"github.com/chris124567/pebble/sstable/block"
+	"github.com/chris124567/pebble/sstable/virtual"
 )
 
 // Compare exports the base.Compare type.

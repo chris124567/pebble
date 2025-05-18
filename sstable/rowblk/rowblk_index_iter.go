@@ -5,8 +5,8 @@
 package rowblk
 
 import (
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/sstable/block"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/sstable/block"
 )
 
 // IndexIter is a lightweight adapter that implements block.IndexIterator for a

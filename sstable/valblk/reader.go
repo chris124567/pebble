@@ -9,10 +9,10 @@ import (
 	"math/rand/v2"
 	"unsafe"
 
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/invariants"
-	"github.com/cockroachdb/pebble/objstorage/objstorageprovider/objiotracing"
-	"github.com/cockroachdb/pebble/sstable/block"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/invariants"
+	"github.com/chris124567/pebble/objstorage/objstorageprovider/objiotracing"
+	"github.com/chris124567/pebble/sstable/block"
 )
 
 // ReaderProvider supports the implementation of blockProviderWhenClosed.
@@ -57,7 +57,7 @@ func (bpwc blockProviderWhenClosed) ReadValueBlock(
 	// for tracing.
 	//
 	// TODO(sumeer): consider fixing this. See
-	// https://github.com/cockroachdb/pebble/pull/3065#issue-1991175365 for an
+	// https://github.com/chris124567/pebble/pull/3065#issue-1991175365 for an
 	// alternative.
 	ctx := objiotracing.WithBlockType(context.Background(), objiotracing.ValueBlock)
 	// TODO(jackson,sumeer): Consider whether to use a buffer pool in this case.

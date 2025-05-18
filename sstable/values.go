@@ -6,10 +6,10 @@ package sstable
 
 import (
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/sstable/blob"
-	"github.com/cockroachdb/pebble/sstable/block"
-	"github.com/cockroachdb/pebble/sstable/valblk"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/sstable/blob"
+	"github.com/chris124567/pebble/sstable/block"
+	"github.com/chris124567/pebble/sstable/valblk"
 )
 
 // AssertNoBlobHandles is a TableBlobContext that configures a sstable iterator

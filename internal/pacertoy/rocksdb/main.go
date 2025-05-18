@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cockroachdb/pebble/internal/rate"
+	"github.com/chris124567/pebble/internal/rate"
 )
 
 const (

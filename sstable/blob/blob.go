@@ -12,11 +12,11 @@ import (
 	"sync"
 
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/crc"
-	"github.com/cockroachdb/pebble/objstorage"
-	"github.com/cockroachdb/pebble/objstorage/objstorageprovider"
-	"github.com/cockroachdb/pebble/sstable/block"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/crc"
+	"github.com/chris124567/pebble/objstorage"
+	"github.com/chris124567/pebble/objstorage/objstorageprovider"
+	"github.com/chris124567/pebble/sstable/block"
 )
 
 var (

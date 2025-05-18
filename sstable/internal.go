@@ -5,10 +5,10 @@
 package sstable
 
 import (
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/keyspan"
-	"github.com/cockroachdb/pebble/sstable/blob"
-	"github.com/cockroachdb/pebble/sstable/valblk"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/keyspan"
+	"github.com/chris124567/pebble/sstable/blob"
+	"github.com/chris124567/pebble/sstable/valblk"
 )
 
 // These constants are part of the file format, and should not be changed.

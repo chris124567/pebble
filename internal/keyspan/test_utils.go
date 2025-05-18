@@ -15,8 +15,8 @@ import (
 	"strings"
 
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/dsl"
-	"github.com/cockroachdb/pebble/internal/treeprinter"
+	"github.com/chris124567/pebble/internal/dsl"
+	"github.com/chris124567/pebble/internal/treeprinter"
 )
 
 // This file contains testing facilities for Spans and FragmentIterators. It's

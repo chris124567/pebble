@@ -5,8 +5,8 @@
 package sstableinternal
 
 import (
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/cache"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/cache"
 )
 
 // CacheOptions contains the information needed to interact with the block

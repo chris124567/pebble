@@ -8,10 +8,10 @@ import (
 	"context"
 
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/bytealloc"
-	"github.com/cockroachdb/pebble/objstorage"
-	"github.com/cockroachdb/pebble/objstorage/objstorageprovider"
-	"github.com/cockroachdb/pebble/sstable/block"
+	"github.com/chris124567/pebble/internal/bytealloc"
+	"github.com/chris124567/pebble/objstorage"
+	"github.com/chris124567/pebble/objstorage/objstorageprovider"
+	"github.com/chris124567/pebble/sstable/block"
 )
 
 // CopySpan produces a copy of a approximate subset of an input sstable.

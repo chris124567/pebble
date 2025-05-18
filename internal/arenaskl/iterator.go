@@ -21,8 +21,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/treeprinter"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/treeprinter"
 )
 
 type splice struct {

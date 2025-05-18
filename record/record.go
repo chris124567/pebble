@@ -111,9 +111,9 @@ import (
 	"math"
 
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/bitflip"
-	"github.com/cockroachdb/pebble/internal/crc"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/bitflip"
+	"github.com/chris124567/pebble/internal/crc"
 )
 
 // These constants are part of the wire format and should not be changed.

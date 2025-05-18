@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cockroachdb/pebble/vfs"
+	"github.com/chris124567/pebble/vfs"
 	"github.com/cockroachdb/redact"
 	"github.com/stretchr/testify/require"
 )

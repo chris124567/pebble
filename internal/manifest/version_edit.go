@@ -17,9 +17,9 @@ import (
 	"time"
 
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/strparse"
-	"github.com/cockroachdb/pebble/sstable"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/strparse"
+	"github.com/chris124567/pebble/sstable"
 )
 
 // TODO(peter): describe the MANIFEST file format, independently of the C++

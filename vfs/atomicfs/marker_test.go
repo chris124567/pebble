@@ -16,8 +16,8 @@ import (
 
 	"github.com/cockroachdb/datadriven"
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/vfs"
-	"github.com/cockroachdb/pebble/vfs/errorfs"
+	"github.com/chris124567/pebble/vfs"
+	"github.com/chris124567/pebble/vfs/errorfs"
 	"github.com/stretchr/testify/require"
 )
 

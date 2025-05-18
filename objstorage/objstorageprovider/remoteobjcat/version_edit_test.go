@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/objstorage"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/objstorage"
 	"github.com/kr/pretty"
 )
 

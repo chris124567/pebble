@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cockroachdb/pebble/internal/humanize"
-	"github.com/cockroachdb/pebble/internal/treeprinter"
+	"github.com/chris124567/pebble/internal/humanize"
+	"github.com/chris124567/pebble/internal/treeprinter"
 	"github.com/cockroachdb/redact"
 )
 
@@ -395,7 +395,7 @@ type InternalIteratorStats struct {
 	PointCount uint64
 	// Points that were iterated over that were covered by range tombstones. It
 	// can be useful for discovering instances of
-	// https://github.com/cockroachdb/pebble/issues/1070.
+	// https://github.com/chris124567/pebble/issues/1070.
 	PointsCoveredByRangeTombstones uint64
 
 	// Stats related to points in value blocks encountered during iteration.

@@ -22,9 +22,9 @@ import (
 
 	"github.com/cockroachdb/crlib/testutils/leaktest"
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/compression"
-	"github.com/cockroachdb/pebble/sstable/block"
-	"github.com/cockroachdb/pebble/vfs"
+	"github.com/chris124567/pebble/internal/compression"
+	"github.com/chris124567/pebble/sstable/block"
+	"github.com/chris124567/pebble/vfs"
 	"github.com/stretchr/testify/require"
 )
 

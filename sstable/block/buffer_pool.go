@@ -6,8 +6,8 @@ package block
 
 import (
 	"github.com/cockroachdb/errors"
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/internal/cache"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/internal/cache"
 )
 
 // Alloc allocates a new Value for a block of length n (excluding the block

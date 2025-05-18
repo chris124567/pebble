@@ -9,10 +9,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/cockroachdb/pebble/internal/base"
-	"github.com/cockroachdb/pebble/objstorage"
-	"github.com/cockroachdb/pebble/objstorage/objstorageprovider/sharedcache"
-	"github.com/cockroachdb/pebble/objstorage/remote"
+	"github.com/chris124567/pebble/internal/base"
+	"github.com/chris124567/pebble/objstorage"
+	"github.com/chris124567/pebble/objstorage/objstorageprovider/sharedcache"
+	"github.com/chris124567/pebble/objstorage/remote"
 )
 
 // NewRemoteReadable creates an objstorage.Readable out of a remote.ObjectReader.

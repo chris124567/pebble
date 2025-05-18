@@ -9,8 +9,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cockroachdb/pebble/sstable"
-	"github.com/cockroachdb/pebble/vfs"
+	"github.com/chris124567/pebble/sstable"
+	"github.com/chris124567/pebble/vfs"
 )
 
 func main() {

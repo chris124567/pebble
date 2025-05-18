@@ -10,7 +10,7 @@ import (
 	"math/rand/v2"
 	"unsafe"
 
-	"github.com/cockroachdb/pebble/internal/invariants"
+	"github.com/chris124567/pebble/internal/invariants"
 )
 
 // The go:linkname directives provides backdoor access to private functions in

@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cockroachdb/pebble/internal/metamorphic/metaflags"
-	"github.com/cockroachdb/pebble/metamorphic"
+	"github.com/chris124567/pebble/internal/metamorphic/metaflags"
+	"github.com/chris124567/pebble/metamorphic"
 )
 
 // TODO(peter):
