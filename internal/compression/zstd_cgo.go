@@ -10,7 +10,7 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"github.com/DataDog/zstd"
+	"github.com/chris124567/zstd"
 	"github.com/cockroachdb/errors"
 	"github.com/cockroachdb/pebble/internal/base"
 )
